@@ -383,6 +383,9 @@ iframe{
 
 
 @media screen and (max-width: 430px){
+    *{
+        overflow-x: hidden;
+    }
     header {
         margin-bottom: 200px;
     }
@@ -445,14 +448,16 @@ iframe{
     .proj {
         width: 390px;
     }
+    
     .t-and-s {
         width: 100%;
         display: flex;
         align-items: flex-start;
+        background-color: #ffffff90;
     }
     .t-and-s h2{
         background-color: #ffffffab;
-        border-radius: 20px;
+        
     }
     .t-and-s h3{
         font-size: 17px;
@@ -462,7 +467,6 @@ iframe{
     }
     .tecnical div{
         transform: translate(0px, 0px); 
-        background-color: #ffffffab;
         border-radius: 20px;
         margin-bottom: 10px;
     }
@@ -475,13 +479,13 @@ iframe{
     }
     .soft div{
         transform: translateX(0px);
-        background-color: #ffffffab;
         border-radius: 20px;
         margin-bottom: 15px;
     }
     .soft img {
         width: 53.7px;
         height: 60px;
+        margin: 5px;
     }
     .java {
         height: 55px !important;
@@ -491,7 +495,7 @@ iframe{
         flex-direction: column;
     }
     .wlogo {
-        width: 400px;
+        width: 395px;
         margin-bottom: 25px;
     }
     .links li {
@@ -501,7 +505,7 @@ iframe{
         padding-left: 1rem !important;
     }
     iframe {
-        margin: 14px;
-        width: 400px !important;
+        margin: 12px;
+        width: 390px !important;
     }
 }
