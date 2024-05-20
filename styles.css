@@ -412,10 +412,10 @@ iframe{
         font-size: 20px;
     }
     .quote {
-        width: 345px;
+        width: 310px;
     }
     #about-me {
-        height: 425px;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
